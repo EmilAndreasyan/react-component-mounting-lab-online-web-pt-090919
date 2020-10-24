@@ -33,6 +33,8 @@ class Timer extends Component {
       time: prevState.time + 1
     }));
   };
+  
+ 
 
   stopClock = () => {
     clearInterval(this.interval);
